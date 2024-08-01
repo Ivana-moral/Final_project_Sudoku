@@ -142,7 +142,7 @@ class Board:
         for row in self.sudoku.get_board():
             for cell in row:
                 if cell.can_edit:
-                    if cell.value == 0:
+                    if cell.value == 0 or cell.is_sketch:
                         # If any value is zero that means it is not Full
                         return False
         return True
