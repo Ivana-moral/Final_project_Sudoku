@@ -206,7 +206,6 @@ while running_board:
                         board.reset_to_original()
 
 
-            # Clear the beard
             elif event.key == 99:
                 board.reset_to_original()
             elif event.key == 102:
