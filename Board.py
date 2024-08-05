@@ -1,6 +1,6 @@
 import SudokuGenerator
 
-
+# demo sample
 # This class represents an entire Sudoku board. A Board object has 81 Cell objects.
 class Board:
 
