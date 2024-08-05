@@ -1,6 +1,7 @@
 import Board
 import pygame
 
+# Here some demo
 def key_pressed(value):
     if 49 <= event.key <= 57:
         return event.key - 48
